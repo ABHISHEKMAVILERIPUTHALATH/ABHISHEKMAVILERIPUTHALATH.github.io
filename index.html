@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money management app</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+      </style>
+    <h2>How to manage your salary</h2>
+    <p>You can manage your salary by using this app</p>
+    <p>Enter your salary:</p>
+    <input id="salary" type="number" placeholder="enter value" oninput="getval()">
+    <div class="align">
+        <p id="textplace"></p>
+    </div>
+    <footer>
+        <ul>
+            <li>50% for needs: Allocate half of your income to cover essential expenses such as housing, utilities, groceries, transportation, healthcare, and minimum debt payments.</li>
+            <li>30% for wants: Reserve 30% of your income for discretionary spending on non-essential items like dining out, entertainment, vacations, hobbies, and personal preferences.</li>
+            <li>20% for savings and debt repayment: Dedicate 20% of your income towards building savings, creating an emergency fund, contributing to retirement, and paying down debts to secure your financial future.</li>
+        </ul>
+        </footer>
+    <script src="management.js"></script>
+</body>
+</html>
